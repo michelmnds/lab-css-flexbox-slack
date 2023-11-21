@@ -8,3 +8,366 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+.navContainer{
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 60px;
+
+    padding-bottom: 30px;
+
+    background-color: #540B51;
+}
+.slackLogo{
+    width: 92px;
+
+    margin-left: 20px;
+}
+.linkUl{
+    display: none;
+}
+.buttonsContainer{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 20px;
+}
+.searchButton, .menuButton{
+    border: none;
+    background-color: transparent;
+}
+
+.headerContainer{
+    padding-bottom: 30px;
+    background-color: #540B51;
+}
+.headerFirstContainer{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+   
+    gap: 20px;
+
+    background-color: #540B51;
+}
+.headerTxt{
+    font-size: 2rem;
+    font-weight: bolder;
+	text-align: center;
+    color: white;
+}
+.orangeTxt{
+    color: #ECB12F;
+
+    font-weight: bolder;
+}
+.headerP{
+   color: white;
+   text-align: center;
+}
+.headerButtonContainer{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    width: 100%;
+
+    margin-bottom: 30px;
+}
+.signupButton{
+    width: 90%;
+    height: 40px;
+
+    border: none;
+
+    border-radius: 4px;
+}
+.googleButton{
+    width: 90%;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    background-color: #4285F4;
+
+    border: none;
+
+    border-radius: 4px;
+}
+.googleLogo{
+    background-color: white;
+    width: 20px;
+
+    border-radius: 4px;
+
+    padding: 4px 6px 4px 6px;
+
+    position: absolute;
+}
+.googleTxt{
+    margin: 0 auto;
+}
+
+.companiesContainer{
+    background-color: white;
+    
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+.companyP{
+    margin: 30px 0 30px 0;
+
+    font-weight: bolder;
+}
+.companiesLogoContainer{
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100px;
+
+    gap: 10px;
+
+    margin-bottom: 70px
+}
+.companyLogo{
+    width: 50px;
+    height: auto;
+}
+#airbnb{
+    width: 80px;
+}
+#target{
+    width: 40px;
+}
+#nyt{
+    width: 150px;
+}
+#spotify{
+    width: 90px;
+}
+.mainImage{
+    width: 100%;
+}
+
+.reviewsContainer{
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+
+    padding-bottom: 50px;
+}
+.reviewTxt{
+    color: #540B51;
+
+    font-size: 2rem;
+    font-weight: bolder;
+
+    text-align: center;
+}
+.reviewP{
+    font-weight: bolder;
+
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+.reviewUl{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    font-weight: bolder;
+
+    gap: 20px;
+}
+.prplNumber{
+    font-size: 2rem;
+    font-weight: bolder;
+
+    color: #540B51;
+}
+
+.tryContainer{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    background-color: #540B51;
+}
+.tryTxt{
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+
+    color: white;
+
+    margin-bottom: 30px;
+}
+
+.tryButtonWhite{
+    width: 90%;
+    height: 40px;
+
+    border: none;
+    border-radius: 3px;
+    outline: none;
+
+    font-weight: bold;
+
+    color: #540B51;
+    background-color: white;
+
+    margin-bottom: 10px;
+}
+.tryButtonPrpl{
+    width: 90%;
+    height: 40px;
+
+    border: 1px solid white;
+    border-radius: 3px;
+    outline: none;
+
+    font-weight: bold;
+
+    color: white;
+    background-color: #540B51;
+}
+.footerContainer{
+    width: 90%;
+
+    margin: 0 auto;
+    margin-top: 60px;
+
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+    justify-content: center;
+
+    gap: 20px;
+}
+.footerUl{
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 20px;
+
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+}
+.smallContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smallTxt{
+    font-size: 0.58rem;
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+@media(min-width: 768px) and (max-width: 1024px) {
+    .headerContainer{
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 0 20px 0 20px;
+    }
+    .headerFirstContainer{
+        width: 320px;
+
+        align-items: flex-start;
+    }
+    .headerTxt, .headerP{
+        text-align: left;
+    }
+    .headerTxt{
+        font-size: 3.7rem;
+    }
+    .headerButtonContainer{
+        align-items: flex-start;
+    }
+    .imageContainer{
+        width: 320px;
+    }
+    .mainImage{
+        width: 320px;
+    }
+
+    .reviewUl{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        text-align: left;
+
+        gap: 0;
+
+        width: 90%;
+    }
+    .singleReviewContainer{
+        max-width: 170px;
+    }
+    .reviewUl > li > p{
+        font-size: 0.8rem;
+    }
+
+    .footerUl{
+        flex-direction: row;
+
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 0 auto;
+    }
+}
