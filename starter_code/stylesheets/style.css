@@ -368,6 +368,11 @@ footer links grey: #454245
         justify-content: space-between;
         align-items: center;
 
-        margin: 0 auto;
+        width: 100%;
+    }
+    .socials{
+        justify-content: flex-start;
+
+        gap: 70px
     }
 }
